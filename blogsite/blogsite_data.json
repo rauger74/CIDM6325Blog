@@ -1,0 +1,735 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$Q8akZBxsjlPXeujAbYnrNk$O/ixMnWzMV2HOINOM8MQUEx4Ykso6sHgMsjx5XIglxc=",
+    "last_login": "2024-09-15T00:07:17.486Z",
+    "is_superuser": true,
+    "username": "randy.auger",
+    "first_name": "",
+    "last_name": "",
+    "email": "rauger1@buffs.wtamu.edu",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-09-02T20:50:19.007Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "obt9yfe82usmm1pliaf0xwcbrilfzgbz",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyEgsIhH7_0GssuCVA1NSnsy_rtt0oMeZ96beYuI61Lj2vMcRxZXocXptyNMz9x2wA9s90mmqS3zSHJX5EG7HCbOr9vh_h1U7HVbm2AsQCAu1qdcsqFgHSosngt7xc4xICent0RE7M6QAZQCRWR0uojPFwRSOMI:1spcnN:HbQPTI34N8319ccGci0O5zNiR-hMRUzLGvBcUmbsVTQ",
+    "expire_date": "2024-09-29T00:07:17.519Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z6oyvjmkwrrblwobbudw2efdu3y1d0yv",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyEgsIhH7_0GssuCVA1NSnsy_rtt0oMeZ96beYuI61Lj2vMcRxZXocXptyNMz9x2wA9s90mmqS3zSHJX5EG7HCbOr9vh_h1U7HVbm2AsQCAu1qdcsqFgHSosngt7xc4xICent0RE7M6QAZQCRWR0uojPFwRSOMI:1slE21:fw6c_k7VTsGc6x2NLk-jk5LwGETxqp-allg6TSrO-gs",
+    "expire_date": "2024-09-16T20:52:13.010Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 2,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 2,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 3,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 2,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 5,
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": 10
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Django Post",
+    "slug": "Django-Post",
+    "author": [
+      "randy.auger"
+    ],
+    "body": "Django First Run",
+    "publish": "2024-09-02T21:00:16Z",
+    "created": "2024-09-02T21:01:48.650Z",
+    "updated": "2024-09-14T16:46:55.131Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "2nd Post",
+    "slug": "2nd-post",
+    "author": [
+      "randy.auger"
+    ],
+    "body": "2nd post",
+    "publish": "2024-09-07T17:28:37Z",
+    "created": "2024-09-07T17:29:03.469Z",
+    "updated": "2024-09-14T16:33:58.917Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "New title",
+    "slug": "another-post",
+    "author": [
+      "randy.auger"
+    ],
+    "body": "Post body.",
+    "publish": "2024-09-07T18:31:32Z",
+    "created": "2024-09-07T18:31:40.762Z",
+    "updated": "2024-09-14T17:06:20.963Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "One more post",
+    "slug": "one-more-post",
+    "author": [
+      "randy.auger"
+    ],
+    "body": "Post body.",
+    "publish": "2024-09-07T18:44:19Z",
+    "created": "2024-09-07T18:44:19.473Z",
+    "updated": "2024-09-14T17:06:41.748Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Published Post",
+    "slug": "published-post",
+    "author": [
+      "randy.auger"
+    ],
+    "body": "Published Post",
+    "publish": "2024-09-07T19:16:01Z",
+    "created": "2024-09-07T19:16:36.686Z",
+    "updated": "2024-09-07T19:16:36.686Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "One Mississippi",
+    "slug": "one-mississippi",
+    "author": [
+      "randy.auger"
+    ],
+    "body": "One Mississippi",
+    "publish": "2024-09-12T21:21:37Z",
+    "created": "2024-09-12T21:22:07.232Z",
+    "updated": "2024-09-12T21:22:07.232Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Two Mississippi",
+    "slug": "two-mississippi",
+    "author": [
+      "randy.auger"
+    ],
+    "body": "Two Mississippi",
+    "publish": "2024-09-12T21:22:13Z",
+    "created": "2024-09-12T21:22:39.099Z",
+    "updated": "2024-09-12T21:22:39.099Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Three Mississippi",
+    "slug": "three-mississippi",
+    "author": [
+      "randy.auger"
+    ],
+    "body": "Three Mississippi",
+    "publish": "2024-09-12T21:22:44Z",
+    "created": "2024-09-12T21:23:18.771Z",
+    "updated": "2024-09-12T21:23:18.771Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Four Mississippi",
+    "slug": "four-mississippi",
+    "author": [
+      "randy.auger"
+    ],
+    "body": "Four Mississippi",
+    "publish": "2024-09-12T21:23:20Z",
+    "created": "2024-09-12T21:23:41.005Z",
+    "updated": "2024-09-14T16:45:10.921Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "Markdown post",
+    "slug": "markdown-post",
+    "author": [
+      "randy.auger"
+    ],
+    "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n* Two\r\n* Three\r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+    "publish": "2024-09-14T17:45:19Z",
+    "created": "2024-09-14T17:47:16.690Z",
+    "updated": "2024-09-14T17:47:16.690Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 9,
+    "name": "Randy",
+    "email": "randyauger74@gmail.com",
+    "body": "I think",
+    "created": "2024-09-13T21:07:26.877Z",
+    "updated": "2024-09-13T21:07:26.877Z",
+    "active": true
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-09-02T21:01:48.656Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "1",
+    "object_repr": "Django Post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-09-07T17:29:03.469Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "2",
+    "object_repr": "2nd Post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-09-07T19:16:36.704Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "5",
+    "object_repr": "Published Post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-09-12T20:30:12.362Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "4",
+    "object_repr": "One more post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-09-12T21:22:07.235Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "6",
+    "object_repr": "One Mississippi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-09-12T21:22:39.099Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "7",
+    "object_repr": "Two Mississippi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-09-12T21:23:18.771Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "8",
+    "object_repr": "Three Mississippi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-09-12T21:23:41.021Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "9",
+    "object_repr": "Four Mississippi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-09-13T21:08:49.616Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "comment"
+    ],
+    "object_id": "1",
+    "object_repr": "Comment by Randy Auger on Four Mississippi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-09-13T21:09:58.569Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "comment"
+    ],
+    "object_id": "1",
+    "object_repr": "Comment by Randy Auger on Four Mississippi",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-09-14T16:02:40.712Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "1",
+    "object_repr": "Django Post",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-09-14T16:05:26.358Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "1",
+    "object_repr": "Django Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-09-14T16:33:58.951Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "2",
+    "object_repr": "2nd Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-09-14T16:34:27.993Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "1",
+    "object_repr": "Django Post",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-09-14T16:43:51.366Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "taggit",
+      "tag"
+    ],
+    "object_id": "4",
+    "object_repr": "Jazz",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-09-14T16:45:10.941Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "9",
+    "object_repr": "Four Mississippi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-09-14T16:46:55.146Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "1",
+    "object_repr": "Django Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-09-14T17:06:15.044Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "3",
+    "object_repr": "New title",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-09-14T17:06:20.979Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "3",
+    "object_repr": "New title",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-09-14T17:06:41.772Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "4",
+    "object_repr": "One more post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-09-14T17:47:16.700Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "post"
+    ],
+    "object_id": "10",
+    "object_repr": "Markdown post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-09-14T18:11:02.314Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "sites",
+      "site"
+    ],
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-09-15T00:08:29.173Z",
+    "user": [
+      "randy.auger"
+    ],
+    "content_type": [
+      "blog",
+      "comment"
+    ],
+    "object_id": "1",
+    "object_repr": "Comment by Randy Auger on Four Mississippi",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]
